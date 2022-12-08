@@ -1,0 +1,58 @@
+h1{
+    text-align: center;
+}
+
+.pruebas{
+    height: 100vh;
+    background-color: black;
+    text-align: center;
+    display: flex   ;
+    grid-template-columns: 50% 50%;
+    gap: 1em;
+    font-size: 12px;
+    justify-content: space-around;
+    /* border: 1px solid red;  */
+}
+/* .BIA { 
+    min-width: 250px;
+}
+.Contadores{
+    min-width: 250px;
+} */
+
+.pruebas h2{
+    color: aliceblue;
+    text-align: center;
+}
+.pruebas table{
+    height: 300px;
+    /* margin-right: 20px; */
+    /* border: 1px solid red; */
+}
+
+.pruebas tbody{
+    height: auto;
+}
+
+.pruebas td{
+    width: 100px;
+    height: 50px;
+    border: 2px solid darkslategrey;
+    color: #fff;
+    /* border: 1px solid red; */
+}
+
+@media screen and (max-width:700px){
+    .pruebas{
+        display: block;
+        height: auto;
+        font-size: 10px;
+    }
+    .pruebas tbody{
+        height: 50px;
+       
+    }
+    .pruebas td{
+        height: 20px;
+    }
+}

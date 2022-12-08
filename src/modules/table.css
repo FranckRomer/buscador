@@ -1,0 +1,61 @@
+.App table{
+    margin: 0;
+    padding: 0;
+
+}
+
+.App thead tr td{
+    border-bottom: 3px solid darkslategrey;
+    color: #fff;
+}
+.App .td1, .td2,.td3, .td4,.td5{
+    border-right: 3px solid darkslategrey;
+    border-left: transparent;
+    /* padding: 10px; */
+}
+.App .tdm1, .tdm2,.tdm3, .tdm4,.tdm5{
+    border-right: 3px solid darkslategrey;
+    border-left: transparent;
+    padding: 0 10px;
+}
+.App .tdm1, .tdm2,.tdm3, .tdm4,.tdm5, .tdm6{
+    color: lightgrey;
+}
+
+.App td{
+    max-width: 80px;
+}
+
+@media screen and (max-width:700px){
+    .App-header{
+        font-size: 11px;
+        width: auto;
+    }
+    .App .td3, .td4, .td5, .tdm3, .tdm4, .tdm5{
+        display: none;
+    }
+    .App{
+        font-size: 14px;
+    }
+    .App td{
+        font-size: 11px;
+    }
+}
+
+
+@media screen and (max-width:400px){
+    .App-header{
+        font-size: 7px;
+        width: auto;
+    }
+    .App .td3, .td4, .td5, .tdm3, .tdm4, .tdm5{
+        display: none;
+    }
+    .App{
+        font-size: 11px;
+    }
+    .App td{
+        font-size: 7px;
+    }
+}
+

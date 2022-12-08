@@ -1,0 +1,85 @@
+.TrainZ{
+    padding-top: 100px;
+    background-color: #333;
+    color: aliceblue;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    /* background-image: url("https://www.gratistodo.com/wp-content/uploads/2016/02/Dragon-Ball-Z-Wallpapers-HD-8.jpeg"); */
+    background-size: cover;
+}
+.Titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Titulo h1{
+    margin: 20px;
+}
+.esfera{
+    width: 40px;
+    height: 40px;
+    background-image: url("https://clipground.com/images/esferas-del-dragon-png-11.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 80%;
+    height: calc(100vh - 100px);
+    display: block; 
+    position: relative;
+    left: 10%;
+    /* align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-align: center; */
+    /* grid-template-columns: 1fr; */
+    border: 1px solid yellow;
+}
+.titulos{
+    width: 100%;
+    display: flex;
+    border: 1px solid yellow;
+    justify-content: center;
+    align-items: center;
+}
+.titulos h1{
+    color: aliceblue;
+    margin: 20px;
+    border-bottom: 3px solid yellow;
+    font-size: 24px;
+    cursor: pointer;
+}
+.titulos h2{
+    margin: 20px;
+    color: grey;
+    font-size: 20px;
+    cursor: pointer;
+}
+.titulos h2:hover{
+    color: aliceblue;
+
+}
+
+.tabla_contain thead{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    border: 0;
+    border-bottom: 1px solid aliceblue;
+}
+
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.footer h3{
+    margin: 0 20px;
+    text-decoration: none;
+    color: aliceblue;
+    border-bottom: 1px solid aliceblue;
+}

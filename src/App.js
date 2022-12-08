@@ -1,44 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
 import { CreateTable } from "./modules/CreateTable"
-import { TableContadores } from "./modules/TableContadores"
-import { TableAlcancia } from "./modules/TableAlcancia"
-
+import { Swtch } from "./modules/Switch"
+import { Checkbox } from "./modules/Checkbox"
 
 function App() {
   return (
     <div className="App">
       <h1>Tabla de datos</h1>
-      {/* <ul>
-        <p>SERVIDOR</p>
-        <CreateTable />
 
-        <p>CONTADORES</p>
-        <TableContadores />
-
-        <p>ALCANCIAS</p>
-        <TableAlcancia /> 
-      </ul> */}
       <header className="App-header">
-        <CreateTable />
+        {/* <div className="container-switch">
+            <span>Datos de Hoy </span>
+            <label className="switch">
+                <input type="checkbox" onChange={}/>
+                <span className="slider"></span>
+            </label>
+        </div> */}
+        {/* <div>
+          <span>Datos de Hoy </span>
+          <Swtch />
+          
+        </div> */}
         
-      </header>
-
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Lista de camiones en operación
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
         <CreateTable />
-      </header> */}
+
+      </header>
 
     </div>
   );
